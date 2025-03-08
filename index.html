@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ani Health</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000100;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background:#00D8FF;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FFE407;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2><marquee>Welcome</marquee></h2>
+<p  style="text-align:center;">
+	<img src="New folder/favicon.png">
+	</p>
+	<hr/>
+	<section>
+		<a href="New folder/ani.room.html">Ani room</a>
+	<a href="../Desktop/New folder/chat box.html">Chat Box</a>
+		<a href="CONTACT US.html">Contact Us</a>
+	</section>
+<header>
+  <h2>Ani Health&nbsp;</h2>
+</header>
+
+<section>
+  <nav><b>Animal profiles</b>
+    <ul>
+      <span style="border-bottom:thick green double;border-left:4px #2330C4 dotted; border-right:thin #2330C4 dotted;padding-left:2px;padding-right:2px;">
+		  <a href="#">Cows</a></span><br>
+      <span style="border-bottom:thick green double;border-left:4px #2330C4 dotted; border-right:thin #2330C4 dotted;padding-left:2px;padding-right:2px;">
+		  <a href="#">Goats</a></span><br>
+      <span style="border-bottom:thick green double;border-left:4px #2330C4 dotted; border-right:thin #2330C4 dotted;padding-left:2px;padding-right:2px;">
+		  <a href="#">Sheep</a></span><br>
+	  <span style="border-bottom:thick green double;border-left:4px #2330C4 dotted; border-right:thin #2330C4 dotted;padding-left:2px;padding-right:2px;">
+		  <a href="#">Chicken</a></span><br>
+	  <span style="border-bottom:thick green double;border-left:4px #2330C4 dotted; border-right:thin #2330C4 dotted;padding-left:2px;padding-right:2px;">
+		  <a href="#">Pigs</a></span><br>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>More about Ani Health</h1>
+    <p>* Ani Health is an innovative startup dedicated to empowering farmers with essential, up-to-date information about animal care and management. Specializing in delivering reliable, easy-to-understand resources, Ani Health helps farmers navigate everything from livestock health and nutrition to breeding practices and disease prevention.</p>
+    <p>* Through its user-friendly platform, Ani Health connects farmers to expert advice, research-backed solutions, and practical tips designed to improve the well-being of their animals and enhance farm productivity. Whether it’s understanding livestock behavior, managing vaccinations, or implementing sustainable farming practices, Ani Health strives to be the trusted partner every farmer needs to ensure the optimal health and performance of their animals.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Contact us&nbsp;</p>
+	<p style="text-align:left;"> Email : Ani-Health@gmail.com</p> 
+  <p style="text-align:right;"> Telephone : +256-760-170-397</p>
+</footer>
+
+</body>
+</html>
